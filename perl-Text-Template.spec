@@ -5,7 +5,7 @@ Summary:	Text::Template - Expand template text with embedded Perl
 Summary(pl):	Text::Template - przetwarzanie szablonów tekstowych przez wbudowany Perl
 Name:		perl-Text-Template
 Version:	1.43
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
