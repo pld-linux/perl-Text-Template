@@ -4,8 +4,8 @@
 Summary:	Text::Template perl module
 Summary(pl):	Modu³ perla Text::Template
 Name:		perl-Text-Template
-Version:	1.42
-Release:	3
+Version:	1.43
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -40,4 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %{perl_sitelib}/Text/Template.pm
+%{perl_sitelib}/Text/Template
 %{_mandir}/man3/*
