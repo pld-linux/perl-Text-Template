@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Template
-Summary:	Text::Template - Expand template text with embedded Perl
+Summary:	Text::Template - expand template text with embedded Perl
 Summary(pl):	Text::Template - przetwarzanie szablonów tekstowych przez wbudowany Perl
 Name:		perl-Text-Template
 Version:	1.44
