@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Template
-Summary:	Text-Template perl module
-Summary(pl):	Modu³ perla Text-Template
+Summary:	Text::Template perl module
+Summary(pl):	Modu³ perla Text::Template
 Name:		perl-Text-Template
 Version:	1.42
 Release:	3
@@ -14,10 +14,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Template perl module.
+Text::Template perl module.
 
 %description -l pl
-Modu³ perla Text-Template.
+Modu³ perla Text::Template.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
