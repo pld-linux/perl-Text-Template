@@ -4,7 +4,7 @@
 Summary:	Text::Template - Expand template text with embedded Perl
 Name:		perl-Text-Template
 Version:	1.43
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
