@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Template
-Summary:	Text::Template perl module
-Summary(pl):	Modu³ perla Text::Template
+Summary:	Text::Template - Expand template text with embedded Perl
 Name:		perl-Text-Template
 Version:	1.43
 Release:	1
@@ -14,10 +13,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text::Template perl module.
-
-%description -l pl
-Modu³ perla Text::Template.
+This is a library for generating form letters, building HTML pages,
+or filling in templates generally.  A `template' is a piece of text
+that has little Perl programs embedded in it here and there.  When you
+`fill in' a template, you evaluate the little programs and replace them
+with their values.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
