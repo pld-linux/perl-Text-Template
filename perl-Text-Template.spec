@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Template
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Template perl module
 Summary(pl):	Modu³ perla Text-Template
 Name:		perl-Text-Template
 Version:	1.42
-Release:	2
-
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Text-Template perl module.
 Modu³ perla Text-Template.
 
 %prep
-%setup -q -n Text-Template-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
