@@ -2,8 +2,8 @@
 Summary:	Text-Template perl module
 Summary(pl):	Modu³ perla Text-Template
 Name:		perl-Text-Template
-Version:	1.23
-Release:	2
+Version:	1.31
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
