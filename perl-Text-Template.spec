@@ -2,9 +2,10 @@
 %define	pdir	Text
 %define	pnam	Template
 Summary:	Text::Template - Expand template text with embedded Perl
+Summary(pl):	Text::Template - przetwarzanie szablonów tekstowych przez wbudowany Perl
 Name:		perl-Text-Template
 Version:	1.43
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -16,8 +17,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a library for generating form letters, building HTML pages,
 or filling in templates generally.  A `template' is a piece of text
 that has little Perl programs embedded in it here and there.  When you
-`fill in' a template, you evaluate the little programs and replace them
-with their values.
+`fill in' a template, you evaluate the little programs and replace
+them with their values.
+
+%description -l pl
+To jest biblioteka do generowania listów z formularzy, budowania stron
+HTML lub ogólnie wype³niania szablonów. Szablon (template) to kawa³ek
+tekstu, który ma wbudowane gdzieniegdzie ma³e programy w Perlu. Przy
+"wype³nianiu" szablonu te ma³e programy s± wykonywane i zastêpowane
+zwracanymi przez nie warto¶ciami.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
