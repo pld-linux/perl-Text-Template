@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Template
 Summary:	Text::Template - expand template text with embedded Perl
-Summary(pl.UTF-8):	Text::Template - przetwarzanie szablonów tekstowych przez wbudowany Perl
+Summary(pl.UTF-8):	Text::Template - przetwarzanie szablonów tekstowych z wbudowanym kodem w Perlu
 Name:		perl-Text-Template
 Version:	1.46
 Release:	1
@@ -59,4 +59,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_vendorlib}/Text/Template.pm
 %{perl_vendorlib}/Text/Template
-%{_mandir}/man3/*
+%{_mandir}/man3/Text::Template*.3pm*
