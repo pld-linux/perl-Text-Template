@@ -8,16 +8,19 @@
 Summary:	Text::Template - expand template text with embedded Perl
 Summary(pl.UTF-8):	Text::Template - przetwarzanie szablonów tekstowych z wbudowanym kodem w Perlu
 Name:		perl-Text-Template
-Version:	1.51
+Version:	1.53
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	072de49ce1b076a5cee2e1fbf6e86e0b
+# Source0-md5:	904981e0ff233c4ab6099f4d889729c8
 URL:		http://search.cpan.org/dist/Text-Template/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Test-More-UTF8
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
